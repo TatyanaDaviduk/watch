@@ -1,0 +1,42 @@
+.header {
+
+
+    // .header__inner
+    &__inner {
+        padding-top: 61px;
+        padding-bottom: 70px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    // .header__nav
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    // .header__logo
+    &__logo {
+       
+    }
+    // .header__logo-img
+    &__logo-img {
+     
+    }
+    // .header__menu
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    // .header__menu-item
+    &__menu-item {
+        &:not(:last-child){
+            margin-right: 67px;
+        }
+    }
+    // .header__menu-link
+    &__menu-link {
+        color:black;
+    }
+}
